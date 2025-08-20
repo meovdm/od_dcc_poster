@@ -4,9 +4,9 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Poster & Contact</title>
-  <meta name="description" content="Download my scientific poster and connect with me." />
+  <meta name="description" content="Download my scientific poster and paper, and connect with me." />
   <meta property="og:title" content="Poster & Contact" />
-  <meta property="og:description" content="Download my scientific poster and connect with me." />
+  <meta property="og:description" content="Download my scientific poster and paper, and connect with me." />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="poster-thumbnail.jpg" />
   <style>
@@ -63,11 +63,9 @@
       border: 1px solid rgba(255,255,255,0.08);
       border-radius: calc(var(--radius) - 8px);
       overflow: hidden;
+      padding: 20px;
+      text-align: center;
     }
-    .poster .thumb {
-      display: block; width: 100%; aspect-ratio: 3/4; object-fit: cover; background: #0e1116;
-    }
-    .poster .actions { display: flex; gap: 10px; padding: 12px; }
 
     .btn {
       appearance: none; border: none; cursor: pointer; text-decoration: none;
@@ -75,6 +73,7 @@
       padding: 12px 16px; border-radius: 999px; font-weight: 600; color: #0b0c10;
       transition: transform 0.06s ease, box-shadow 0.2s ease, background 0.2s ease;
       box-shadow: 0 6px 20px rgba(76,201,240,0.25);
+      margin: 6px;
     }
     .btn:hover { transform: translateY(-1px); }
     .btn:active { transform: translateY(0); }
@@ -104,16 +103,15 @@
       <div class="avatar" aria-hidden="true">MV</div>
       <div>
         <h1>Poster: Geometric calibration in X-ray fluorescence tomography<span class="pill">PDF</span></h1>
-        <p class="lead">Download the poster and connect with me.</p>
+        <p class="lead">Download the poster and paper, and connect with me.</p>
       </div>
     </header>
 
     <section class="content panel">
       <article class="poster" aria-labelledby="poster-title">
-        <img class="thumb" src="poster-thumbnail.jpg" alt="Poster thumbnail preview" />
         <div class="actions">
           <a class="btn btn-primary" href="poster.pdf" target="_blank" rel="noopener" aria-label="Open poster PDF">⬇ Download Poster (PDF)</a>
-          <a class="btn btn-ghost" href="poster.pdf#page=1" target="_blank" rel="noopener" aria-label="Quick preview">👁 Quick Preview</a>
+          <a class="btn btn-primary" href="paper.pdf" target="_blank" rel="noopener" aria-label="Open paper PDF">⬇ Download Paper (PDF)</a>
         </div>
       </article>
 
@@ -121,7 +119,7 @@
         <h2>Contact</h2>
         <dl>
           <dt>LinkedIn</dt>
-          <dd><a href="https://www.linkedin.com/in/meovdm/" target="_blank" rel="noopener">linkedin.com/in/meovdm</a></dd>
+          <dd><a href="https://www.linkedin.com/in/meovdm" target="_blank" rel="noopener">https://www.linkedin.com/in/meovdm</a></dd>
           <dt>Email</dt>
           <dd><a href="mailto:meo.van-duijnen-montijn@esrf.fr">meo.van-duijnen-montijn@esrf.fr</a></dd>
           <dt>ORCID</dt>
